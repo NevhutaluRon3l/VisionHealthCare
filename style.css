@@ -207,6 +207,14 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.animation img{
+    border-radius: 8px 8px 0px 0px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
 .Testimonials{
     background-color:rgb(245, 245, 245) ;
     height: 260px;
@@ -306,10 +314,7 @@ footer{
     color:rgb(251, 251, 255); 
     text-align: start;
     margin: 21px 55px;
-   
-    
 }
-
 .footer1{
     margin: 25px 55px;
     padding: 10px;
@@ -320,8 +325,6 @@ footer{
 .Footerdetails{
     color:rgb(251, 251, 255); 
     text-align: start;
-    
-    
 }
 .smiling-nurse img{
     height: 90%;
@@ -346,15 +349,40 @@ footer{
     .Testimonial{
         display: flex;
         flex-direction: column;
-        padding: 5px;
+        padding: 15px;
+        margin: 25px;
         justify-content: center;
         align-items: center;
+    }
+    .aim_section{
+        padding:25px 45px;
+        color: rgb(0, 80, 159);
+    }
+    .aim_section li{
+        font-size: 20px;
+        padding: 3px;
+        margin: 8px;
+    }
+    .details{
+        margin: 5px;
+        padding: 10px;
+        align-items: flex-start;
+        color:rgb(253, 253, 253);
+        
+    }
+    .Testimonials{
+        background-color:rgb(245, 245, 245) ;
+        height: 260px;
+        width: 280px;
+        margin: 25px ;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
     .history_section{
         display: flex;
         flex-direction: column;
         background-color: rgb(245, 245, 245);
-        margin: 78px;
+        margin: 25px;
         border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
     }
@@ -374,21 +402,23 @@ footer{
     .about-message{
         background-color:rgb(245, 245, 245) ;
         border-radius: 5px;
-        margin: 25px;
+        margin: 5px;
+        padding: 8px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
        
     }
     h5{
         font-size: 17px;
-        font-weight: lighter;
-        margin: 25px;
-        padding:25px;
+        font-weight: bold;
+        margin: 15px;
+        padding:10px;
         color:rgb(0, 80, 159);
         
     }
     .contact_details{
-        background-image: url(cellphone.jpg);
+        background-image: url(contactphoto.jpg);
         background-size: cover;
+        opacity: 90%;
         background-position: center center;
         background-repeat: no-repeat;
         background-color:rgb(245, 245, 245) ;
@@ -411,7 +441,7 @@ footer{
     
     }
     span{
-        font-size: 38px;
+        font-size: 28px;
         font-weight: 600;
         color: navy;
     }
