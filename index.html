@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Vision Health Care</title>
+</head>
+<header>
+    <nav>
+        <ul class="sidebar">
+            <li><a href="#" onclick="hideSidebar(event)"><i class="fa-solid fa-xmark"></i></a></li>
+            <li class="navli"><a href="#Home">Home</a></li>
+            <li class="navli"><a href="#About">About</a></li>
+            <li class="navli"><a href="#Testimonials">Testimonials</a></li>
+            <li class="navli"><a href="#Contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li><img src="Logo.png" alt="Logo" class="logo"></li>
+            <li class="hideonMobile"><a href="#Home">Home</a></li>
+            <li class="hideonMobile"><a href="#About">About</a></li>
+            <li class="hideonMobile"><a href="#Contact">Contact</a></li>
+            <li class="hideonMobile"><a href="#Testimonials">Testimonials</a></li>
+            <li class="menu"><a href="#" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+    function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+}
+
+function hideSidebar(event) {
+    event.preventDefault(); // Prevents the page from navigating to the top
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+}
+</script>
+
+
+
+<body>
+    <div class="Frontimage">
+        <img src="Frontphoto.png" alt="A-nurse">
+        <div class="text-overlay">Vision Health Care</div>
+    </div>
+    <!---About page-->
+<section id="About">
+</body>
+
+<main>
+    <div class="About_section">
+        
+        <div class="about-message">
+            <h5>
+                <span>Welcome to Vision Health Care</span>, where your health and well-being are our top priorities. We are dedicated to providing exceptional healthcare services with a compassionate touch. Our team of experienced professionals is committed to delivering personalized care tailored to meet your unique needs.At Vision Health Care dedicated to improving lives through compassionate care,innovative solutions, and a commitment to excellence.Whether you're here as a valued customer,patient,or partner we strive to provide top-quality health services tailored to your needs.
+            </h5>
+        </div>
+    </div>
+   <!--Mission section-->
+    <div class="history_section">
+        <div class="animation">
+            <img src="nurse-helping.jpg" alt="aim_picture">
+        </div>
+        <div class="aim_section">
+            <h3>Our mission:</h3>
+            <ul>
+                <li>Develop and implement effective management plans for patients with chronic diseases.</li>
+                <li>Implement evidence-based practices to minimize medical errors and improve patient safety.</li>
+                <li>Provide educational resources to improve health behaivours.</li>
+                <li>Offer compassionate,personalized care to ensure patient satisfication.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+     <!--Testimonials-->
+     <section id="Testimonials">
+     <h3>Testimonials</h3>
+     <div class="Testimonial">
+        <div class="Testimonials">
+            <h6>Mphoyanga</h6>
+            <p><q>I've been a loyal client of Vision Health Care for few months ,and I can't imagine trusting anyone else with my health needs.Their commitment to excellence is evident in everything they do.The staff is knowledgeable,friendly and always goes above and to ensure I'm comfortable and informed.Vision Health Care truly sets the for a quality care!</q></p>
+        </div>
+        <div class="Testimonials">
+            <h6>Patient</h6>
+            <p><q>Vison Health Care has completely trensformed my experience with health care services.The team is professional,caring, and attentive to detail.From the moment I walked in, I felt valued and supported.Their personalized approach made me feel like more than just a patient.I highly recommend Vision Health Care for anyone looking for top-notch care!<q></p>
+        </div>
+        <div class="Testimonials">
+            <h6>Aneaho</h6>
+            <p><q>I was nervous about seeking care,but Vision Health Care made process so easy and stress-free.The tem listened to my concerns,provided clear explanation, and offered solutions that worked perfectly for me.Their expertise and compassion are unmatched.Thank you,Vison Health Care for giving me peace of mind and outstanding care!</q></p>
+        </div>
+
+    </div>
+
+    <!--Owner section-->
+    <div >
+        <div class="Owner">
+            <div class="smiling-nurse"><img src="Nurse.jpg" alt="">
+            </div>
+            <div>
+            <h5>About Our Founder: <b>Rendani Sigidi</b></h5>
+                <p class="ownermotive"> At the heart of Vsion Health Care Stands <b>Rendani Sigidi</b>,a visionary leader and passionate advocate for accessible,innovative ans compassionate health care.With a deep-rooted commitment to imptoving the well-being of individuals and communities,Rendani founded Vision Health Care with the belief that everyone deserves quality health services tailored to their unique needs.</p><p class="qouttes"><q class="q"><b>At Vision Health Care , we don't just treat patients;we build relationships and inspire healthier lives</b></q>-Rendani Sigidi</p> 
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <hr>
+    </div>
+</section>
+    
+    <!---Contact section-->
+    <section id="Contact">
+    <h4>Get in contact with us</h4>
+    <div class="contact">
+        <div class="contact_details">
+            <h4 class="details">Details:</h4>
+            <h5 class="details"><i class="fa-solid fa-house"></i>07:00 - 16:00</h5>
+            <h5 class="details"><i class="fa-solid fa-phone"></i>0791875572</h5>
+            <h5 class="details"><a href="https://mail.google.com/mail/u/0/#all?compose=GTvVlcSMVJNQCJQRxwccJMFSbQXsFSkJZPRGTbptJXXrzBxxVkCxKLkcWLMxPcLFJRkzDwcHnPFsw" style="color:  rgb(0, 48, 181); "><i class="fa-solid fa-envelope"></i>rendanisigidi1@gmail.com</a></h5>
+            <h5 class="details"><address><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/search/7036+DAWN+PARK+EXT+54/@-26.3048371,28.2238159,14z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" style="color: rgb(0, 48, 181);">7036 DAWN PARK EXT 54 </address></a></h5>
+
+        </div>
+
+    </div>
+
+    </div>
+</section>
+   
+</main>
+
+<!---Footer-->
+<footer>
+    <div class="footer_container">
+        
+        <div class="footerinfo">
+            <h5 class="Footerdetails">For more information:</h5>
+            <p class="footerp"><i class="fa-solid fa-phone"></i>0791875572</p>
+            <p class="footerp"><a href="rendanisigidi1@gmail.com" style="color: aliceblue;"><i class="fa-solid fa-envelope"></i>rendanisigidi1@gmail.com</a></p>
+            <p class="footerp" style="font-style: italic;"><i class="fa-solid fa-location-dot"></i>7036 DAWN PARK EXT 54</p>
+
+
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <p style="color: aliceblue; margin: 25px;">Web design by Nevhutalu Nzumbululo</p>
+
+    
+    <div style="text-align: center; ">
+        <hr>
+    </div>
+</footer>
+
+</html>
